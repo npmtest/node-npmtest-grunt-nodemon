@@ -1,8 +1,8 @@
 # npmtest-grunt-nodemon
 
-test coverage for  [grunt-nodemon (v0.4.2)](https://github.com/ChrisWren/grunt-nodemon#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-nodemon.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-nodemon) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-nodemon.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-nodemon)
+#### basic test coverage for  [grunt-nodemon (v0.4.2)](https://github.com/ChrisWren/grunt-nodemon#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-nodemon.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-nodemon) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-nodemon.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-nodemon)
 
-Grunt task to run a nodemon monitor of your node.js server
+#### Grunt task to run a nodemon monitor of your node.js server
 
 [![NPM](https://nodei.co/npm/grunt-nodemon.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-nodemon)
 
@@ -10,7 +10,7 @@ Grunt task to run a nodemon monitor of your node.js server
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-nodemon/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-nodemon/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grunt-nodemon/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-nodemon/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-nodemon/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-nodemon/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-grunt-nodemon/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-grunt-nodemon/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-nodemon/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-nodemon/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-grunt-nodemon/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-grunt-nodemon/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@ Grunt task to run a nodemon monitor of your node.js server
     "scripts": {
         "test": "grunt test"
     },
-    "version": "0.4.2"
+    "version": "0.4.2",
+    "bin": {}
 }
 ```
 
